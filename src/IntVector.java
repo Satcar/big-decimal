@@ -27,7 +27,7 @@ public class IntVector implements IntList {
     @Override
     public int get(int id) {
         if (id < 0 || id >= size) {
-            System.out.printf("Error: El indice debe estar entre 0 y %d", size - 1);
+            System.out.printf("Error: El indice debe estar entre 0 y %d\n", size - 1);
             return -1;
         }
         return data[id];

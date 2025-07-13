@@ -28,7 +28,7 @@ public class IntArrayList implements  IntList{
     @Override
     public int get(int id) {
         if (id < 0 || id >= size) {
-            System.out.printf("Error: El indice introducido debe estar entre 0 y %d", data.length);
+            System.out.printf("Error: El indice introducido debe estar entre 0 y %d\n", data.length);
             return -1;
         }
 
